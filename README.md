@@ -1,5 +1,6 @@
 SmartDiagnostics
 ================
+[![Build Status](https://travis-ci.org/giacomelli/SmartDiagnostics.png?branch=master)](https://travis-ci.org/giacomelli/SmartDiagnostics)
 
 Extensions for better perform disgnostic on .NET code
 

@@ -1,9 +1,16 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDiagnostics", "SmartDiagnostics\SmartDiagnostics.csproj", "{4EA59F21-EC48-4DA6-AFD0-1BB9545EB1F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDiagnostics.UnitTests", "SmartDiagnostics.UnitTests\SmartDiagnostics.UnitTests.csproj", "{2CCDB858-E1D4-48B8-82AA-106EC577AE52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0B797B9D-C06E-484A-A8A7-A6336D3FF845}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,20 +18,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2CCDB858-E1D4-48B8-82AA-106EC577AE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CCDB858-E1D4-48B8-82AA-106EC577AE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CCDB858-E1D4-48B8-82AA-106EC577AE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CCDB858-E1D4-48B8-82AA-106EC577AE52}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4EA59F21-EC48-4DA6-AFD0-1BB9545EB1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4EA59F21-EC48-4DA6-AFD0-1BB9545EB1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EA59F21-EC48-4DA6-AFD0-1BB9545EB1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EA59F21-EC48-4DA6-AFD0-1BB9545EB1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CCDB858-E1D4-48B8-82AA-106EC577AE52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CCDB858-E1D4-48B8-82AA-106EC577AE52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CCDB858-E1D4-48B8-82AA-106EC577AE52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CCDB858-E1D4-48B8-82AA-106EC577AE52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = SmartDiagnostics\SmartDiagnostics.csproj
 		version = 1.0.0
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
