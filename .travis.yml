@@ -6,4 +6,4 @@ install:
  
 script:
   - xbuild ./SmartDiagnostics.sln /property:"Configuration=Debug;Platform=Any CPU"
-  - nunit-console ./SmartDiagnostics.SmartDiagnostics/bin/Debug/SmartDiagnostics.UnitTests.dll
+  - nunit-console ./SmartDiagnostics.UnitTests/bin/Debug/SmartDiagnostics.UnitTests.dll
